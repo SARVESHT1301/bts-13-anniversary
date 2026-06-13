@@ -47,6 +47,13 @@ const TRACKS = [
     file: '/audio/fake-love.mp3'
   },
   {
+    title: 'Boy With Luv',
+    year: '2019',
+    duration: '3:49',
+    emoji: '💕',
+    file: '/audio/boy-with-luv.mp3'
+  },
+  {
     title: 'ON',
     year: '2020',
     duration: '4:06',
@@ -96,61 +103,61 @@ const TRACKS = [
     file: '/audio/like-animals.mp3'
   },
   {
-  title: 'Body To Body',
-  year: '2026',
-  duration: '3:12',
-  emoji: '🕺',
-  file: '/audio/body-to-body.mp3'
-},
-{
-  title: 'Hooligan',
-  year: '2026',
-  duration: '2:58',
-  emoji: '😈',
-  file: '/audio/hooligan.mp3'
-},
-{
-  title: 'FYA',
-  year: '2026',
-  duration: '3:08',
-  emoji: '🔥',
-  file: '/audio/fya.mp3'
-},
-{
-  title: 'SWIM',
-  year: '2026',
-  duration: '3:25',
-  emoji: '🌊',
-  file: '/audio/swim.mp3'
-},
-{
-  title: 'They Dont Know bout Us',
-  year: '2026',
-  duration: '3:40',
-  emoji: '💫',
-  file: '/audio/they-dont-know-bout-us.mp3'
-},
-{
-  title: 'Normal',
-  year: '2026',
-  duration: '3:18',
-  emoji: '🌙',
-  file: '/audio/normal.mp3'
-},
-{
-  title: 'Please',
-  year: '2026',
-  duration: '3:30',
-  emoji: '🥀',
-  file: '/audio/please.mp3'
-},
-{
-  title: 'Into The Sun',
-  year: '2026',
-  duration: '3:45',
-  emoji: '☀️',
-  file: '/audio/into-the-sun.mp3'
-}
+    title: 'Body To Body',
+    year: '2026',
+    duration: '3:12',
+    emoji: '🕺',
+    file: '/audio/body-to-body.mp3'
+  },
+  {
+    title: 'Hooligan',
+    year: '2026',
+    duration: '2:58',
+    emoji: '😈',
+    file: '/audio/hooligan.mp3'
+  },
+  {
+    title: 'FYA',
+    year: '2026',
+    duration: '3:08',
+    emoji: '🔥',
+    file: '/audio/fya.mp3'
+  },
+  {
+    title: 'SWIM',
+    year: '2026',
+    duration: '3:25',
+    emoji: '🌊',
+    file: '/audio/swim.mp3'
+  },
+  {
+    title: 'They Dont Know bout Us',
+    year: '2026',
+    duration: '3:40',
+    emoji: '💫',
+    file: '/audio/they-dont-know-bout-us.mp3'
+  },
+  {
+    title: 'Normal',
+    year: '2026',
+    duration: '3:18',
+    emoji: '🌙',
+    file: '/audio/normal.mp3'
+  },
+  {
+    title: 'Please',
+    year: '2026',
+    duration: '3:30',
+    emoji: '🥀',
+    file: '/audio/please.mp3'
+  },
+  {
+    title: 'Into The Sun',
+    year: '2026',
+    duration: '3:45',
+    emoji: '☀️',
+    file: '/audio/into-the-sun.mp3'
+  }
 ];
 
 function EqualizerBars({ isPlaying }) {
@@ -395,7 +402,7 @@ export default function MusicPlayer() {
                     exit={{ opacity: 0, height: 0 }}
                     style={{ overflow: 'hidden' }}
                   >
-                    <div 
+                    <div
                       className="playlist-scroll"
                       style={{
                         marginTop: 12,
